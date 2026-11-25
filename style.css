@@ -593,6 +593,10 @@ footer {
         align-items: start;
     }
 
+    .nav1 {
+        display: none;
+    }
+
     .menu-btn {
         
         background-color: transparent;
@@ -675,6 +679,61 @@ footer {
 
 
     
+}
+
+@media screen and (max-width :576px) {
+    .logo {
+        font-size: 1rem;
+    }
+    section {
+        padding: 0 1rem;
+        
+    }
+
+    .hero { 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .a-propos {
+        background-position: center;
+    }
+
+    .experiences h2, .a-propos h2 ,.cv h2 , .contact h2{
+        font-size: 3rem;
+    }
+    .experiences {
+        gap: 0.5rem
+    }
+
+    .experience {
+        flex:0 0 360px;
+    }
+
+    .table, tr , td ,th {
+        padding: 0.8rem;
+    }
+
+    .contact {
+        padding:1rem 1rem ;
+    }
+
+    form {
+        padding: 1rem 1rem;
+    }
+
+    .message {
+        flex-flow: column nowrap;
+    }
+
+    input , textarea{
+        width: 330px;
+    }
+
+    footer {
+        padding: 2rem 2rem;
+    }
+   
 }
 
 
